@@ -43,6 +43,7 @@ npx skills add RafaelQSantos-RQS/skills --all -g
 | :--- | :--- | :--- |
 | **`conventional-commits`** | Auxilia o agente a inspecionar diffs do Git e elaborar mensagens de commit padronizadas (Conventional Commits 1.0.0). | `npx skills add RafaelQSantos-RQS/skills --skill conventional-commits` |
 | **`skill-template`** | Boilerplate e guia de referência para criação de novas skills. | `npx skills add RafaelQSantos-RQS/skills --skill skill-template` |
+| **`ux-laws`** | Base de conhecimento com 30 leis de UX (Fitts, Hick, Miller, Jakob, Gestalt, carga cognitiva, hierarquia visual) para revisar UI e tomar decisões de frontend. | `npx skills add RafaelQSantos-RQS/skills --skill ux-laws` |
 
 ---
 
