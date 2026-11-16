@@ -47,6 +47,7 @@ npx skills add RafaelQSantos-RQS/skills --all -g
 | **`rust-best-practices`** | Padrões idiomáticos de Rust (borrow vs clone, clippy, thiserror/anyhow, type state, Send/Sync) derivados do handbook da Apollo GraphQL. | `npx skills add RafaelQSantos-RQS/skills --skill rust-best-practices` |
 | **`angular-developer`** | Skill oficial do time Angular: geração de código e orientação em signals, forms, DI, routing, SSR, ARIA, animações, testes e CLI. | `npx skills add RafaelQSantos-RQS/skills --skill angular-developer` |
 | **`angular-new-app`** | Skill oficial do time Angular para criar um app novo: detecção do CLI, flags do `ng new`, `--ai-config` e pinagem de versão. | `npx skills add RafaelQSantos-RQS/skills --skill angular-new-app` |
+| **`optimus-ui`** | Documentação offline do Optimus UI (fork MIT do PrimeNG para Angular): API, props, eventos, templates, theming e migração dos 80+ componentes. | `npx skills add RafaelQSantos-RQS/skills --skill optimus-ui` |
 
 ---
 
