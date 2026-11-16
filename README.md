@@ -41,7 +41,7 @@ npx skills add RafaelQSantos-RQS/skills --all -g
 
 | Skill | Descrição | Comando de Instalação |
 | :--- | :--- | :--- |
-| **`conventional-commits`** | Auxilia o agente a inspecionar diffs do Git e elaborar mensagens de commit padronizadas (Conventional Commits 1.0.0). | `npx skills add RafaelQSantos-RQS/skills --skill conventional-commits` |
+| **`conventional-commits`** | Inspeciona diffs, sugere commits atômicos e valida mensagens com a configuração local do commitlint, usando Node, Docker ou fallback manual. | `npx skills add RafaelQSantos-RQS/skills --skill conventional-commits` |
 | **`merge-request`** | Abrir, atualizar e responder review de Merge Requests (GitLab) ou Pull Requests (GitHub): título e corpo proporcionais ao diff, self-review e limpeza de ruído típico de texto gerado por IA. | `npx skills add RafaelQSantos-RQS/skills --skill merge-request` |
 | **`skill-template`** | Boilerplate e guia de referência para criação de novas skills. | `npx skills add RafaelQSantos-RQS/skills --skill skill-template` |
 | **`ux-laws`** | Base de conhecimento com 30 leis de UX (Fitts, Hick, Miller, Jakob, Gestalt, carga cognitiva, hierarquia visual) para revisar UI e tomar decisões de frontend. | `npx skills add RafaelQSantos-RQS/skills --skill ux-laws` |
