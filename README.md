@@ -46,6 +46,7 @@ npx skills add RafaelQSantos-RQS/skills --all -g
 | **`ux-laws`** | Base de conhecimento com 30 leis de UX (Fitts, Hick, Miller, Jakob, Gestalt, carga cognitiva, hierarquia visual) para revisar UI e tomar decisões de frontend. | `npx skills add RafaelQSantos-RQS/skills --skill ux-laws` |
 | **`rust-best-practices`** | Padrões idiomáticos de Rust (borrow vs clone, clippy, thiserror/anyhow, type state, Send/Sync) derivados do handbook da Apollo GraphQL. | `npx skills add RafaelQSantos-RQS/skills --skill rust-best-practices` |
 | **`angular-developer`** | Skill oficial do time Angular: geração de código e orientação em signals, forms, DI, routing, SSR, ARIA, animações, testes e CLI. | `npx skills add RafaelQSantos-RQS/skills --skill angular-developer` |
+| **`angular-new-app`** | Skill oficial do time Angular para criar um app novo: detecção do CLI, flags do `ng new`, `--ai-config` e pinagem de versão. | `npx skills add RafaelQSantos-RQS/skills --skill angular-new-app` |
 
 ---
 

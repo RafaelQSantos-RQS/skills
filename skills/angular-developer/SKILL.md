@@ -18,29 +18,11 @@ metadata:
 
 ## Creating New Projects
 
-If no guidelines are provided by the user, here are some default rules to follow when creating a new Angular project:
+<!-- Divergência deliberada do upstream: as regras de `ng new` foram movidas para a skill angular-new-app (as duas se contradiziam). -->
 
-1. Use the latest stable version of Angular unless the user specifies otherwise.
-2. Use Signal Forms for form management in new projects (stable in Angular v22 and newer) [Find out more](references/signal-forms.md).
+Creating a new Angular application is owned by the `angular-new-app` skill — it covers CLI detection, `ng new` flags, `--ai-config`, and version pinning. Load that skill instead of improvising a scaffold command here.
 
-**Execution Rules for `ng new`:**
-When asked to create a new Angular project, you must determine the correct execution command by following these strict steps:
-
-**Step 1: Check for an explicit user version.**
-
-- **IF** the user requests a specific version (e.g., Angular 15), bypass local installations and strictly use `npx`.
-- **Command:** `npx @angular/cli@<requested_version> new <project-name>`
-
-**Step 2: Check for an existing Angular installation.**
-
-- **IF** no specific version is requested, run `ng version` in the terminal to check if the Angular CLI is already installed on the system.
-- **IF** the command succeeds and returns an installed version, use the local/global installation directly.
-- **Command:** `ng new <project-name>`
-
-**Step 3: Fallback to Latest.**
-
-- **IF** no specific version is requested AND the `ng version` command fails (indicating no Angular installation exists), you must use `npx` to fetch the latest version.
-- **Command:** `npx @angular/cli@latest new <project-name>`
+For form management in new projects, prefer Signal Forms (stable in Angular v22 and newer) [Find out more](references/signal-forms.md).
 
 ## Components
 
