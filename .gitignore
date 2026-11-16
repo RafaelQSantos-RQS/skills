@@ -1,0 +1,14 @@
+# Dependências e pacotes
+node_modules/
+
+# Arquivos gerados pelo skills CLI em testes locais
+skills-lock.json
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos temporários
+*.log
+.tmp/
+tmp/
